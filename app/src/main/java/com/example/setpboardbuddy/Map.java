@@ -2,7 +2,9 @@ package com.example.setpboardbuddy;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -30,9 +32,7 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
           //      .findFragmentById(R.id.mapAPI);
 
         mapFragment.getMapAsync(this);
-
     }
-
 
     /**
      * Manipulates the map once available.
@@ -59,4 +59,12 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         mapAPI.addMarker(new MarkerOptions().position(Portsmouth).title("Portsmouth"));
         mapAPI.moveCamera(CameraUpdateFactory.newLatLng(Portsmouth));
     }
+
+    public void BackBtn2(View view){
+        Intent myIntent = new Intent(Map.this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
+
+
 }

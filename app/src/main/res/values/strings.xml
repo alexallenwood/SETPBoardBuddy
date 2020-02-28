@@ -8,4 +8,8 @@
     <string name="BoardBuddy">BOARD BUDDY</string>
     <string name="Profile">🧔</string>
     <string name="title_activity_map">Map</string>
+    <string name="Event_page">Events</string>
+    <string name="Back_button">Back</string>
+    <string name="Showing_for_Location">Showing for Location:</string>
+
 </resources>
