@@ -13,5 +13,6 @@
     <string name="Event_page">Events</string>
     <string name="Back_button">Back</string>
     <string name="Showing_for_Location">Showing for Location:</string>
+    <string name="Play">Play</string>
 
 </resources>
