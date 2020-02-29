@@ -7,7 +7,9 @@
     <string name="My_Matches">My Matches 📝</string>
     <string name="BoardBuddy">BOARD BUDDY</string>
     <string name="Profile">🧔</string>
-    <string name="title_activity_map">Map</string>
+    <string name="CB_Mode">Colour Blind Mode</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="txtSetting">Text Size: </string>
     <string name="Event_page">Events</string>
     <string name="Back_button">Back</string>
     <string name="Showing_for_Location">Showing for Location:</string>

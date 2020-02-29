@@ -39,7 +39,7 @@
 
         <activity
             android:name=".Map"
-            android:label="@string/title_activity_map" />
+            android:label="@string/Map" />
         <activity android:name=".Profile" />
         <activity android:name=".MyMatches" />
         <activity android:name=".Settings" />
